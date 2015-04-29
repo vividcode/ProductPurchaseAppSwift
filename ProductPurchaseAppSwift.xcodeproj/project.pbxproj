@@ -11,19 +11,22 @@
 		848AC0AD1AF0F9A900A215AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AC0AC1AF0F9A900A215AB /* ViewController.swift */; };
 		848AC0B01AF0F9A900A215AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AC0AE1AF0F9A900A215AB /* Main.storyboard */; };
 		848AC0B21AF0F9A900A215AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848AC0B11AF0F9A900A215AB /* Images.xcassets */; };
-		848AC0B51AF0F9A900A215AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848AC0B31AF0F9A900A215AB /* LaunchScreen.xib */; };
-		848AC0C11AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AC0C01AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.swift */; };
+		848AC0CD1AF0FA4400A215AB /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC0CC1AF0FA4400A215AB /* IAPHelper.m */; };
+		848AC1381AF0FFEB00A215AB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC0D01AF0FFEB00A215AB /* Reachability.m */; };
+		848AC1391AF0FFEB00A215AB /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 848AC0D31AF0FFEB00A215AB /* AppleIncRootCertificate.cer */; };
+		848AC13A1AF0FFEB00A215AB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 848AC0D61AF0FFEB00A215AB /* LICENSE */; };
+		848AC13B1AF0FFEB00A215AB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 848AC1241AF0FFEB00A215AB /* libcrypto.a */; };
+		848AC13C1AF0FFEB00A215AB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 848AC1251AF0FFEB00A215AB /* libssl.a */; };
+		848AC13D1AF0FFEB00A215AB /* RMAppReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC1271AF0FFEB00A215AB /* RMAppReceipt.m */; };
+		848AC13E1AF0FFEB00A215AB /* RMStoreAppReceiptVerificator.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC1291AF0FFEB00A215AB /* RMStoreAppReceiptVerificator.m */; };
+		848AC13F1AF0FFEB00A215AB /* RMStoreKeychainPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC12B1AF0FFEB00A215AB /* RMStoreKeychainPersistence.m */; };
+		848AC1401AF0FFEB00A215AB /* RMStoreTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC12D1AF0FFEB00A215AB /* RMStoreTransaction.m */; };
+		848AC1411AF0FFEB00A215AB /* RMStoreTransactionReceiptVerificator.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC12F1AF0FFEB00A215AB /* RMStoreTransactionReceiptVerificator.m */; };
+		848AC1421AF0FFEB00A215AB /* RMStoreUserDefaultsPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC1311AF0FFEB00A215AB /* RMStoreUserDefaultsPersistence.m */; };
+		848AC1431AF0FFEB00A215AB /* RMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC1331AF0FFEB00A215AB /* RMStore.m */; };
+		848AC1441AF0FFEB00A215AB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 848AC1351AF0FFEB00A215AB /* SVProgressHUD.bundle */; };
+		848AC1451AF0FFEB00A215AB /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AC1371AF0FFEB00A215AB /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		848AC0BB1AF0F9A900A215AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 848AC09D1AF0F9A900A215AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 848AC0A41AF0F9A900A215AB;
-			remoteInfo = ProductPurchaseAppSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		848AC0A51AF0F9A900A215AB /* ProductPurchaseAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductPurchaseAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,10 +35,107 @@
 		848AC0AC1AF0F9A900A215AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848AC0AF1AF0F9A900A215AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848AC0B11AF0F9A900A215AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		848AC0B41AF0F9A900A215AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		848AC0BA1AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductPurchaseAppSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		848AC0BF1AF0F9A900A215AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848AC0C01AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPurchaseAppSwiftTests.swift; sourceTree = "<group>"; };
+		848AC0CA1AF0FA4300A215AB /* ProductPurchaseAppSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProductPurchaseAppSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		848AC0CB1AF0FA4400A215AB /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		848AC0CC1AF0FA4400A215AB /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		848AC0CF1AF0FFEB00A215AB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		848AC0D01AF0FFEB00A215AB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		848AC0D31AF0FFEB00A215AB /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		848AC0D61AF0FFEB00A215AB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		848AC0D81AF0FFEB00A215AB /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		848AC0D91AF0FFEB00A215AB /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		848AC0DA1AF0FFEB00A215AB /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		848AC0DB1AF0FFEB00A215AB /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		848AC0DC1AF0FFEB00A215AB /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		848AC0DD1AF0FFEB00A215AB /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		848AC0DE1AF0FFEB00A215AB /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		848AC0DF1AF0FFEB00A215AB /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		848AC0E01AF0FFEB00A215AB /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		848AC0E11AF0FFEB00A215AB /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		848AC0E21AF0FFEB00A215AB /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		848AC0E31AF0FFEB00A215AB /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		848AC0E41AF0FFEB00A215AB /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		848AC0E51AF0FFEB00A215AB /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		848AC0E61AF0FFEB00A215AB /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		848AC0E71AF0FFEB00A215AB /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		848AC0E81AF0FFEB00A215AB /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		848AC0E91AF0FFEB00A215AB /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		848AC0EA1AF0FFEB00A215AB /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		848AC0EB1AF0FFEB00A215AB /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		848AC0EC1AF0FFEB00A215AB /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		848AC0ED1AF0FFEB00A215AB /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		848AC0EE1AF0FFEB00A215AB /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		848AC0EF1AF0FFEB00A215AB /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		848AC0F01AF0FFEB00A215AB /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		848AC0F11AF0FFEB00A215AB /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		848AC0F21AF0FFEB00A215AB /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		848AC0F31AF0FFEB00A215AB /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		848AC0F41AF0FFEB00A215AB /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		848AC0F51AF0FFEB00A215AB /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		848AC0F61AF0FFEB00A215AB /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		848AC0F71AF0FFEB00A215AB /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		848AC0F81AF0FFEB00A215AB /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		848AC0F91AF0FFEB00A215AB /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		848AC0FA1AF0FFEB00A215AB /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		848AC0FB1AF0FFEB00A215AB /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		848AC0FC1AF0FFEB00A215AB /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		848AC0FD1AF0FFEB00A215AB /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		848AC0FE1AF0FFEB00A215AB /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		848AC0FF1AF0FFEB00A215AB /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		848AC1001AF0FFEB00A215AB /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		848AC1011AF0FFEB00A215AB /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		848AC1021AF0FFEB00A215AB /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		848AC1031AF0FFEB00A215AB /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		848AC1041AF0FFEB00A215AB /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		848AC1051AF0FFEB00A215AB /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		848AC1061AF0FFEB00A215AB /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		848AC1071AF0FFEB00A215AB /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		848AC1081AF0FFEB00A215AB /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		848AC1091AF0FFEB00A215AB /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		848AC10A1AF0FFEB00A215AB /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		848AC10B1AF0FFEB00A215AB /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		848AC10C1AF0FFEB00A215AB /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		848AC10D1AF0FFEB00A215AB /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		848AC10E1AF0FFEB00A215AB /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		848AC10F1AF0FFEB00A215AB /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		848AC1101AF0FFEB00A215AB /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		848AC1111AF0FFEB00A215AB /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		848AC1121AF0FFEB00A215AB /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		848AC1131AF0FFEB00A215AB /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		848AC1141AF0FFEB00A215AB /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		848AC1151AF0FFEB00A215AB /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		848AC1161AF0FFEB00A215AB /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		848AC1171AF0FFEB00A215AB /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		848AC1181AF0FFEB00A215AB /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		848AC1191AF0FFEB00A215AB /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		848AC11A1AF0FFEB00A215AB /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		848AC11B1AF0FFEB00A215AB /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		848AC11C1AF0FFEB00A215AB /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		848AC11D1AF0FFEB00A215AB /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		848AC11E1AF0FFEB00A215AB /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		848AC11F1AF0FFEB00A215AB /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		848AC1201AF0FFEB00A215AB /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		848AC1211AF0FFEB00A215AB /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		848AC1221AF0FFEB00A215AB /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		848AC1241AF0FFEB00A215AB /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		848AC1251AF0FFEB00A215AB /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		848AC1261AF0FFEB00A215AB /* RMAppReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAppReceipt.h; sourceTree = "<group>"; };
+		848AC1271AF0FFEB00A215AB /* RMAppReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAppReceipt.m; sourceTree = "<group>"; };
+		848AC1281AF0FFEB00A215AB /* RMStoreAppReceiptVerificator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreAppReceiptVerificator.h; sourceTree = "<group>"; };
+		848AC1291AF0FFEB00A215AB /* RMStoreAppReceiptVerificator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreAppReceiptVerificator.m; sourceTree = "<group>"; };
+		848AC12A1AF0FFEB00A215AB /* RMStoreKeychainPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreKeychainPersistence.h; sourceTree = "<group>"; };
+		848AC12B1AF0FFEB00A215AB /* RMStoreKeychainPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreKeychainPersistence.m; sourceTree = "<group>"; };
+		848AC12C1AF0FFEB00A215AB /* RMStoreTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreTransaction.h; sourceTree = "<group>"; };
+		848AC12D1AF0FFEB00A215AB /* RMStoreTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreTransaction.m; sourceTree = "<group>"; };
+		848AC12E1AF0FFEB00A215AB /* RMStoreTransactionReceiptVerificator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreTransactionReceiptVerificator.h; sourceTree = "<group>"; };
+		848AC12F1AF0FFEB00A215AB /* RMStoreTransactionReceiptVerificator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreTransactionReceiptVerificator.m; sourceTree = "<group>"; };
+		848AC1301AF0FFEB00A215AB /* RMStoreUserDefaultsPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreUserDefaultsPersistence.h; sourceTree = "<group>"; };
+		848AC1311AF0FFEB00A215AB /* RMStoreUserDefaultsPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreUserDefaultsPersistence.m; sourceTree = "<group>"; };
+		848AC1321AF0FFEB00A215AB /* RMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStore.h; sourceTree = "<group>"; };
+		848AC1331AF0FFEB00A215AB /* RMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStore.m; sourceTree = "<group>"; };
+		848AC1351AF0FFEB00A215AB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		848AC1361AF0FFEB00A215AB /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		848AC1371AF0FFEB00A215AB /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,13 +143,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		848AC0B71AF0F9A900A215AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				848AC13C1AF0FFEB00A215AB /* libssl.a in Frameworks */,
+				848AC13B1AF0FFEB00A215AB /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				848AC0A71AF0F9A900A215AB /* ProductPurchaseAppSwift */,
-				848AC0BD1AF0F9A900A215AB /* ProductPurchaseAppSwiftTests */,
 				848AC0A61AF0F9A900A215AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				848AC0A51AF0F9A900A215AB /* ProductPurchaseAppSwift.app */,
-				848AC0BA1AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +170,17 @@
 		848AC0A71AF0F9A900A215AB /* ProductPurchaseAppSwift */ = {
 			isa = PBXGroup;
 			children = (
+				848AC0CE1AF0FFEB00A215AB /* Reachability */,
+				848AC0D11AF0FFEB00A215AB /* RMStore */,
+				848AC1341AF0FFEB00A215AB /* SVProgressHUD */,
+				848AC0CB1AF0FA4400A215AB /* IAPHelper.h */,
+				848AC0CC1AF0FA4400A215AB /* IAPHelper.m */,
 				848AC0AA1AF0F9A900A215AB /* AppDelegate.swift */,
 				848AC0AC1AF0F9A900A215AB /* ViewController.swift */,
 				848AC0AE1AF0F9A900A215AB /* Main.storyboard */,
 				848AC0B11AF0F9A900A215AB /* Images.xcassets */,
-				848AC0B31AF0F9A900A215AB /* LaunchScreen.xib */,
 				848AC0A81AF0F9A900A215AB /* Supporting Files */,
+				848AC0CA1AF0FA4300A215AB /* ProductPurchaseAppSwift-Bridging-Header.h */,
 			);
 			path = ProductPurchaseAppSwift;
 			sourceTree = "<group>";
@@ -95,21 +193,163 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		848AC0BD1AF0F9A900A215AB /* ProductPurchaseAppSwiftTests */ = {
+		848AC0CE1AF0FFEB00A215AB /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				848AC0C01AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.swift */,
-				848AC0BE1AF0F9A900A215AB /* Supporting Files */,
+				848AC0CF1AF0FFEB00A215AB /* Reachability.h */,
+				848AC0D01AF0FFEB00A215AB /* Reachability.m */,
 			);
-			path = ProductPurchaseAppSwiftTests;
+			path = Reachability;
 			sourceTree = "<group>";
 		};
-		848AC0BE1AF0F9A900A215AB /* Supporting Files */ = {
+		848AC0D11AF0FFEB00A215AB /* RMStore */ = {
 			isa = PBXGroup;
 			children = (
-				848AC0BF1AF0F9A900A215AB /* Info.plist */,
+				848AC0D21AF0FFEB00A215AB /* Optional */,
+				848AC1321AF0FFEB00A215AB /* RMStore.h */,
+				848AC1331AF0FFEB00A215AB /* RMStore.m */,
 			);
-			name = "Supporting Files";
+			path = RMStore;
+			sourceTree = "<group>";
+		};
+		848AC0D21AF0FFEB00A215AB /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				848AC0D31AF0FFEB00A215AB /* AppleIncRootCertificate.cer */,
+				848AC0D41AF0FFEB00A215AB /* openssl-1.0.1e */,
+				848AC1261AF0FFEB00A215AB /* RMAppReceipt.h */,
+				848AC1271AF0FFEB00A215AB /* RMAppReceipt.m */,
+				848AC1281AF0FFEB00A215AB /* RMStoreAppReceiptVerificator.h */,
+				848AC1291AF0FFEB00A215AB /* RMStoreAppReceiptVerificator.m */,
+				848AC12A1AF0FFEB00A215AB /* RMStoreKeychainPersistence.h */,
+				848AC12B1AF0FFEB00A215AB /* RMStoreKeychainPersistence.m */,
+				848AC12C1AF0FFEB00A215AB /* RMStoreTransaction.h */,
+				848AC12D1AF0FFEB00A215AB /* RMStoreTransaction.m */,
+				848AC12E1AF0FFEB00A215AB /* RMStoreTransactionReceiptVerificator.h */,
+				848AC12F1AF0FFEB00A215AB /* RMStoreTransactionReceiptVerificator.m */,
+				848AC1301AF0FFEB00A215AB /* RMStoreUserDefaultsPersistence.h */,
+				848AC1311AF0FFEB00A215AB /* RMStoreUserDefaultsPersistence.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		848AC0D41AF0FFEB00A215AB /* openssl-1.0.1e */ = {
+			isa = PBXGroup;
+			children = (
+				848AC0D51AF0FFEB00A215AB /* include */,
+				848AC1231AF0FFEB00A215AB /* lib */,
+			);
+			path = "openssl-1.0.1e";
+			sourceTree = "<group>";
+		};
+		848AC0D51AF0FFEB00A215AB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				848AC0D61AF0FFEB00A215AB /* LICENSE */,
+				848AC0D71AF0FFEB00A215AB /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		848AC0D71AF0FFEB00A215AB /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				848AC0D81AF0FFEB00A215AB /* aes.h */,
+				848AC0D91AF0FFEB00A215AB /* asn1.h */,
+				848AC0DA1AF0FFEB00A215AB /* asn1_mac.h */,
+				848AC0DB1AF0FFEB00A215AB /* asn1t.h */,
+				848AC0DC1AF0FFEB00A215AB /* bio.h */,
+				848AC0DD1AF0FFEB00A215AB /* blowfish.h */,
+				848AC0DE1AF0FFEB00A215AB /* bn.h */,
+				848AC0DF1AF0FFEB00A215AB /* buffer.h */,
+				848AC0E01AF0FFEB00A215AB /* camellia.h */,
+				848AC0E11AF0FFEB00A215AB /* cast.h */,
+				848AC0E21AF0FFEB00A215AB /* cmac.h */,
+				848AC0E31AF0FFEB00A215AB /* cms.h */,
+				848AC0E41AF0FFEB00A215AB /* comp.h */,
+				848AC0E51AF0FFEB00A215AB /* conf.h */,
+				848AC0E61AF0FFEB00A215AB /* conf_api.h */,
+				848AC0E71AF0FFEB00A215AB /* crypto.h */,
+				848AC0E81AF0FFEB00A215AB /* des.h */,
+				848AC0E91AF0FFEB00A215AB /* des_old.h */,
+				848AC0EA1AF0FFEB00A215AB /* dh.h */,
+				848AC0EB1AF0FFEB00A215AB /* dsa.h */,
+				848AC0EC1AF0FFEB00A215AB /* dso.h */,
+				848AC0ED1AF0FFEB00A215AB /* dtls1.h */,
+				848AC0EE1AF0FFEB00A215AB /* e_os2.h */,
+				848AC0EF1AF0FFEB00A215AB /* ebcdic.h */,
+				848AC0F01AF0FFEB00A215AB /* ec.h */,
+				848AC0F11AF0FFEB00A215AB /* ecdh.h */,
+				848AC0F21AF0FFEB00A215AB /* ecdsa.h */,
+				848AC0F31AF0FFEB00A215AB /* engine.h */,
+				848AC0F41AF0FFEB00A215AB /* err.h */,
+				848AC0F51AF0FFEB00A215AB /* evp.h */,
+				848AC0F61AF0FFEB00A215AB /* hmac.h */,
+				848AC0F71AF0FFEB00A215AB /* idea.h */,
+				848AC0F81AF0FFEB00A215AB /* krb5_asn.h */,
+				848AC0F91AF0FFEB00A215AB /* kssl.h */,
+				848AC0FA1AF0FFEB00A215AB /* lhash.h */,
+				848AC0FB1AF0FFEB00A215AB /* md4.h */,
+				848AC0FC1AF0FFEB00A215AB /* md5.h */,
+				848AC0FD1AF0FFEB00A215AB /* mdc2.h */,
+				848AC0FE1AF0FFEB00A215AB /* modes.h */,
+				848AC0FF1AF0FFEB00A215AB /* obj_mac.h */,
+				848AC1001AF0FFEB00A215AB /* objects.h */,
+				848AC1011AF0FFEB00A215AB /* ocsp.h */,
+				848AC1021AF0FFEB00A215AB /* opensslconf.h */,
+				848AC1031AF0FFEB00A215AB /* opensslv.h */,
+				848AC1041AF0FFEB00A215AB /* ossl_typ.h */,
+				848AC1051AF0FFEB00A215AB /* pem.h */,
+				848AC1061AF0FFEB00A215AB /* pem2.h */,
+				848AC1071AF0FFEB00A215AB /* pkcs12.h */,
+				848AC1081AF0FFEB00A215AB /* pkcs7.h */,
+				848AC1091AF0FFEB00A215AB /* pqueue.h */,
+				848AC10A1AF0FFEB00A215AB /* rand.h */,
+				848AC10B1AF0FFEB00A215AB /* rc2.h */,
+				848AC10C1AF0FFEB00A215AB /* rc4.h */,
+				848AC10D1AF0FFEB00A215AB /* ripemd.h */,
+				848AC10E1AF0FFEB00A215AB /* rsa.h */,
+				848AC10F1AF0FFEB00A215AB /* safestack.h */,
+				848AC1101AF0FFEB00A215AB /* seed.h */,
+				848AC1111AF0FFEB00A215AB /* sha.h */,
+				848AC1121AF0FFEB00A215AB /* srp.h */,
+				848AC1131AF0FFEB00A215AB /* srtp.h */,
+				848AC1141AF0FFEB00A215AB /* ssl.h */,
+				848AC1151AF0FFEB00A215AB /* ssl2.h */,
+				848AC1161AF0FFEB00A215AB /* ssl23.h */,
+				848AC1171AF0FFEB00A215AB /* ssl3.h */,
+				848AC1181AF0FFEB00A215AB /* stack.h */,
+				848AC1191AF0FFEB00A215AB /* symhacks.h */,
+				848AC11A1AF0FFEB00A215AB /* tls1.h */,
+				848AC11B1AF0FFEB00A215AB /* ts.h */,
+				848AC11C1AF0FFEB00A215AB /* txt_db.h */,
+				848AC11D1AF0FFEB00A215AB /* ui.h */,
+				848AC11E1AF0FFEB00A215AB /* ui_compat.h */,
+				848AC11F1AF0FFEB00A215AB /* whrlpool.h */,
+				848AC1201AF0FFEB00A215AB /* x509.h */,
+				848AC1211AF0FFEB00A215AB /* x509_vfy.h */,
+				848AC1221AF0FFEB00A215AB /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		848AC1231AF0FFEB00A215AB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				848AC1241AF0FFEB00A215AB /* libcrypto.a */,
+				848AC1251AF0FFEB00A215AB /* libssl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		848AC1341AF0FFEB00A215AB /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				848AC1351AF0FFEB00A215AB /* SVProgressHUD.bundle */,
+				848AC1361AF0FFEB00A215AB /* SVProgressHUD.h */,
+				848AC1371AF0FFEB00A215AB /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,24 +372,6 @@
 			productReference = 848AC0A51AF0F9A900A215AB /* ProductPurchaseAppSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		848AC0B91AF0F9A900A215AB /* ProductPurchaseAppSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 848AC0C71AF0F9A900A215AB /* Build configuration list for PBXNativeTarget "ProductPurchaseAppSwiftTests" */;
-			buildPhases = (
-				848AC0B61AF0F9A900A215AB /* Sources */,
-				848AC0B71AF0F9A900A215AB /* Frameworks */,
-				848AC0B81AF0F9A900A215AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				848AC0BC1AF0F9A900A215AB /* PBXTargetDependency */,
-			);
-			name = ProductPurchaseAppSwiftTests;
-			productName = ProductPurchaseAppSwiftTests;
-			productReference = 848AC0BA1AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +383,6 @@
 				TargetAttributes = {
 					848AC0A41AF0F9A900A215AB = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					848AC0B91AF0F9A900A215AB = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 848AC0A41AF0F9A900A215AB;
 					};
 				};
 			};
@@ -182,7 +400,6 @@
 			projectRoot = "";
 			targets = (
 				848AC0A41AF0F9A900A215AB /* ProductPurchaseAppSwift */,
-				848AC0B91AF0F9A900A215AB /* ProductPurchaseAppSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,15 +410,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				848AC0B01AF0F9A900A215AB /* Main.storyboard in Resources */,
-				848AC0B51AF0F9A900A215AB /* LaunchScreen.xib in Resources */,
+				848AC1441AF0FFEB00A215AB /* SVProgressHUD.bundle in Resources */,
+				848AC1391AF0FFEB00A215AB /* AppleIncRootCertificate.cer in Resources */,
 				848AC0B21AF0F9A900A215AB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		848AC0B81AF0F9A900A215AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				848AC13A1AF0FFEB00A215AB /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,28 +424,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848AC1421AF0FFEB00A215AB /* RMStoreUserDefaultsPersistence.m in Sources */,
+				848AC1431AF0FFEB00A215AB /* RMStore.m in Sources */,
 				848AC0AD1AF0F9A900A215AB /* ViewController.swift in Sources */,
+				848AC1401AF0FFEB00A215AB /* RMStoreTransaction.m in Sources */,
+				848AC13F1AF0FFEB00A215AB /* RMStoreKeychainPersistence.m in Sources */,
+				848AC1451AF0FFEB00A215AB /* SVProgressHUD.m in Sources */,
+				848AC0CD1AF0FA4400A215AB /* IAPHelper.m in Sources */,
+				848AC1381AF0FFEB00A215AB /* Reachability.m in Sources */,
+				848AC13D1AF0FFEB00A215AB /* RMAppReceipt.m in Sources */,
+				848AC13E1AF0FFEB00A215AB /* RMStoreAppReceiptVerificator.m in Sources */,
+				848AC1411AF0FFEB00A215AB /* RMStoreTransactionReceiptVerificator.m in Sources */,
 				848AC0AB1AF0F9A900A215AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848AC0B61AF0F9A900A215AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				848AC0C11AF0F9A900A215AB /* ProductPurchaseAppSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		848AC0BC1AF0F9A900A215AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 848AC0A41AF0F9A900A215AB /* ProductPurchaseAppSwift */;
-			targetProxy = 848AC0BB1AF0F9A900A215AB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		848AC0AE1AF0F9A900A215AB /* Main.storyboard */ = {
@@ -242,14 +448,6 @@
 				848AC0AF1AF0F9A900A215AB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		848AC0B31AF0F9A900A215AB /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				848AC0B41AF0F9A900A215AB /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,9 +534,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ProductPurchaseAppSwift/RMStore/Optional/openssl-1.0.1e/include/**",
+				);
 				INFOPLIST_FILE = ProductPurchaseAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProductPurchaseAppSwift/RMStore/Optional/openssl-1.0.1e/lib/**",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProductPurchaseAppSwift/ProductPurchaseAppSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,43 +556,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ProductPurchaseAppSwift/RMStore/Optional/openssl-1.0.1e/include/**",
+				);
 				INFOPLIST_FILE = ProductPurchaseAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		848AC0C81AF0F9A900A215AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/ProductPurchaseAppSwift/RMStore/Optional/openssl-1.0.1e/lib/**",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ProductPurchaseAppSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProductPurchaseAppSwift.app/ProductPurchaseAppSwift";
-			};
-			name = Debug;
-		};
-		848AC0C91AF0F9A900A215AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ProductPurchaseAppSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProductPurchaseAppSwift.app/ProductPurchaseAppSwift";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProductPurchaseAppSwift/ProductPurchaseAppSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -403,14 +590,6 @@
 			buildConfigurations = (
 				848AC0C51AF0F9A900A215AB /* Debug */,
 				848AC0C61AF0F9A900A215AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		848AC0C71AF0F9A900A215AB /* Build configuration list for PBXNativeTarget "ProductPurchaseAppSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				848AC0C81AF0F9A900A215AB /* Debug */,
-				848AC0C91AF0F9A900A215AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
