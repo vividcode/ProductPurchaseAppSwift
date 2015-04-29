@@ -16,11 +16,8 @@
 //TODO:Replace these constant values with your actual Product IDs set up in iTunesConnect Portal.
 //Warning:Do NOT change constant names!
 //If you add/remove/modify any of the entries, change productIDArray inside IAPHelper.m accordingly.
-#define IAP_PRODUCT_C1 @"com.IphoneGameZone.C1"
-#define IAP_PRODUCT_C2 @"com.IphoneGameZone.C2"
-#define IAP_PRODUCT_NC1 @"com.IphoneGameZone.NC1"
-#define IAP_PRODUCT_NC2 @"com.IphoneGameZone.NC2"
-#define IAP_PRODUCT_NC3 @"com.IphoneGameZone.NC3"
+#define IAP_PRODUCT_NC1 @"com.IphoneGameZone.SWIFTNC1"
+#define IAP_PRODUCT_C1 @"com.IphoneGameZone.SWIFTC1"
 //TODO: End
 
 #define kInAppPurchaseManagerTransactionSucceededNotification @"Transaction Succeeded Notification"

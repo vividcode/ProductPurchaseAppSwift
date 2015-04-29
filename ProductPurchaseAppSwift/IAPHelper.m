@@ -8,9 +8,9 @@
 
 #import "IAPHelper.h"
 
-static NSString * productIDArray[5] =
+static NSString * productIDArray[2] =
 {
-    IAP_PRODUCT_C1, IAP_PRODUCT_C2, IAP_PRODUCT_NC1, IAP_PRODUCT_NC2, IAP_PRODUCT_NC3
+    IAP_PRODUCT_C1, IAP_PRODUCT_NC1
 };
 
 @implementation IAPHelper
